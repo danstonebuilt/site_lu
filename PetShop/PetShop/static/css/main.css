@@ -10,3 +10,6 @@ header {
     background-color: #87CEFA;
 }
 */
+
+.no-margin{ margin: 0; }
+.no-padding{ padding: 0;}
