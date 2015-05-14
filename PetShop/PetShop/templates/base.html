@@ -13,24 +13,9 @@
 <body>
 
     <div class="container-fluid">
-        <header>
-             <nav>
-
-             </nav>
-        </header>
-
-        <div clas="row">
-            <div role="main">
-                <!-- Main content -->
-            </div>
-        </div>
-
-        <footer class="row">
-
-        </footer>
-
-
-        <h1>Hello Daniel Stonebuilt</h1>
+        {% block header %} {% endblock header %}
+        {% block content %} {% endblock content %}
+        {% block footer %} {% endblock footer %}
     </div>
 
       <script type="{% static 'js/jquery.min.js' %}"></script>
