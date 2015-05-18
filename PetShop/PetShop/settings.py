@@ -56,7 +56,7 @@ ROOT_URLCONF = 'PetShop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/daniel.anselmo/Desktop/workstation/site_lu/PetShop/PetShop/templates',],
+        'DIRS': ['C:/Users/Daniel/Desktop/Workstation/site_lu/PetShop/PetShop/templates',],
         #'DIRS': [os.path.join(BASE_DIR, "templates").replace('\\', '/'),],
         'APP_DIRS': True,
         'OPTIONS': {

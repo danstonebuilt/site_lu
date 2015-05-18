@@ -19,7 +19,7 @@ from PetShop.views.views import show_homepage, show, homepage
 
 urlpatterns = [
     url(r'^tst/', show_homepage),
-    url(r'^2/', homepage),
+    url(r'^home/', homepage),
     url(r'^1/', show),
     url(r'^admin/', include(admin.site.urls)),
 ]
